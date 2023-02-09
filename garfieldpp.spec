@@ -29,6 +29,8 @@ Requires:       gsl
 Requires:       liburing
 Requires:       geant4-devel
 
+Conflicts:      garfieldpp
+
 %description
 Garfield++ is a toolkit for the detailed simulation of particle detectors based
 on ionisation measurement in gases and semiconductors. The main area of
@@ -72,3 +74,6 @@ EOF
 %changelog
 * Sat Feb 4 11:05:00 CST 2023 Haoxuan Guo <kuohaoxuan@outlook.com> - 4.0-1
 - Initial RPM release
+
+* Thu Feb 9 14:01:00 CST 2023 Haoxuan Guo <kuohaoxuan@outlook.com> - 4.0-2
+- Add conflicts: garfieldpp
