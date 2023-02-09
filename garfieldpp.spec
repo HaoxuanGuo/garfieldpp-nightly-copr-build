@@ -4,7 +4,7 @@
 
 Name:           garfieldpp-nightly
 Version:        4.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Toolkit for the detailed simulation of particle detectors based on ionisation measurement in gases and semiconductors.
 
 License:        BSD
